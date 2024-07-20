@@ -1,0 +1,1034 @@
+[
+  {
+    "name": "Painel Solar JA Solar 550W Bifacial",
+    "price": 472.32,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "591b2125-e067-4b03-87ca-b1d0aefcb614"
+  },
+  {
+    "name": "Inversor Fronius Primo 3Kw Monof. 220V",
+    "price": 1905.59,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "04e234eb-7c02-4078-a613-92bf98513787"
+  },
+  {
+    "name": "Inversor Fronius Primo 4Kw Monof. 220V",
+    "price": 2777.66,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "c7ab6c52-1735-474e-8fa8-c4c8b782df15"
+  },
+  {
+    "name": "Inversor Fronius Primo 5Kw Monof. 220V",
+    "price": 3068.51,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "d2a719b9-13a6-4060-bf87-9cc6100b7d58"
+  },
+  {
+    "name": "Inversor Fronius Primo 6Kw Monof. 220V",
+    "price": 3427.43,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "8a987966-d374-47c0-a4f9-665f83360c39"
+  },
+  {
+    "name": "Inversor Fronius Primo 8,2Kw Monof. 220V",
+    "price": 4507.21,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "c73d8f69-4778-476b-a74f-048a55cb42b6"
+  },
+  {
+    "name": "Inversor Fronius Symo BR 10Kw Trif. 220V",
+    "price": 17681.02,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "29458656-66e2-44b4-b50d-683301a374d1"
+  },
+  {
+    "name": "Inversor Fronius Symo BR 12Kw Trif. 220V",
+    "price": 19746.66,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "c6ba97a6-1f80-4c6c-b0b4-e16b4d977aa7"
+  },
+  {
+    "name": "Inversor Fronius Symo BR 15Kw Trif. 220V",
+    "price": 18496.07,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2a0db31b-e952-4f1b-8ebf-1a7cee70a0b9"
+  },
+  {
+    "name": "Inversor Fronius Symo 12,5Kw Trif. 380V",
+    "price": 10136.19,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9528627e-4d91-4396-a869-811cf4282736"
+  },
+  {
+    "name": "Inversor Fronius Symo 15Kw Trif. 380V",
+    "price": 11274.04,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5b5c1824-dfc4-4248-a654-038972867855"
+  },
+  {
+    "name": "Inversor Fronius Symo 17,5Kw Trif. 380V",
+    "price": 11893.33,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5027e120-a639-4904-92b3-bbf920413214"
+  },
+  {
+    "name": "Inversor Fronius Symo 20Kw Trif. 380V",
+    "price": 12619.95,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2f3b2925-2438-4581-879b-fdc59105efae"
+  },
+  {
+    "name": "Inversor Fronius Eco 25Kw Trif. 380V",
+    "price": 14016.72,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "23f12bdd-0925-4023-81de-acb31286c907"
+  },
+  {
+    "name": "Inversor Fronius Eco Light 25Kw Trif. 380V",
+    "price": 13653.38,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5f5b869d-16f5-4ac5-9edf-49a7845c0efc"
+  },
+  {
+    "name": "Inversor Fronius Eco 27Kw Trif. 380V",
+    "price": 15375.81,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "acacde6f-7d63-4c91-928e-36691f6d1516"
+  },
+  {
+    "name": "Inversor Fronius Eco Light 27Kw Trif. 380V",
+    "price": 14947.44,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "084eff3e-2fb3-46d9-a1ea-ce40c4f0322a"
+  },
+  {
+    "name": "Inversor Fronius Kit Eco 75Kw (Eco 25 + 2 Eco 25 Light)",
+    "price": 41323.48,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "419af5ff-2f3c-43b2-82ee-310de512b786"
+  },
+  {
+    "name": "Inversor Fronius Tauro ECO 50-3-D Trif 380V",
+    "price": 39545.19,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "36e5477a-9fb0-4b42-af70-542a7724909c"
+  },
+  {
+    "name": "Inversor Fronius Tauro ECO 50-3-P Trif 380V",
+    "price": 36813.7,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "b8f95ef7-3905-4a04-9b91-f3eb152bca3f"
+  },
+  {
+    "name": "Inversor Fronius Tauro ECO 100-3-D Trif 380V",
+    "price": 54309.73,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "164d6ff0-6f24-4828-b50b-a9e672a6dcec"
+  },
+  {
+    "name": "Inversor Fronius Tauro ECO 100-3-P Trif 380V",
+    "price": 49228.05,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "3d55ddd0-5586-496b-9aec-8e05ba17d453"
+  },
+  {
+    "name": "Inversor Fronius Primo GEN24 3.0 Plus Monf. 220V",
+    "price": 13213.02,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "eae11a7d-de5c-42af-b4ee-ad2c2eb1098c"
+  },
+  {
+    "name": "Inversor Fronius Primo GEN24 4.0 Plus Monf. 220V",
+    "price": 14206.57,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "1967dc06-e42f-4fb8-ac91-9685b95f8f2a"
+  },
+  {
+    "name": "Inversor Fronius Primo GEN24 5.0 Plus Monf. 220V",
+    "price": 16046.1,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "acaaa7dd-521d-49b6-ada8-aac75525390e"
+  },
+  {
+    "name": "Inversor Fronius Primo GEN24 6.0 Plus Monf. 220V",
+    "price": 17812.4,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "dc11a832-0273-468d-b8e0-7839863edaa1"
+  },
+  {
+    "name": "Carregador Veicular Fronius Wattpilot Home 11 J 2,0",
+    "price": 7391.34,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "8618af58-f98f-487e-8039-4038ee840e51"
+  },
+  {
+    "name": "Cabo de carregado veicular Fronius Tipo 2 2,5m",
+    "price": 2602.88,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "a432327b-5bff-4933-bc71-2b295af42c7e"
+  },
+  {
+    "name": "Cabo de carregado veicular Fronius Tipo 2 5m",
+    "price": 2318.82,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "231a6b7f-3811-431d-84ee-5e59fe539d52"
+  },
+  {
+    "name": "Cabo de carregado veicular Fronius  Tipo 2 7,5m",
+    "price": 3389.83,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "c9f47326-7355-43f5-964b-60686ecefc7d"
+  },
+  {
+    "name": "Suporte cabo de carregado veicular Fronius (Type 2 wall bracket)",
+    "price": 594.56,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "a4e2b0f0-7d06-48a3-b104-e536d4071102"
+  },
+  {
+    "name": "Tagns RFID",
+    "price": 259.92,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "dadb24c6-a07e-472c-8f67-d2d6d9324fd2"
+  },
+  {
+    "name": "Mount Place Go 2,0",
+    "price": 272.68,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2086dac8-beff-4aed-b3c0-c2865d8a2267"
+  },
+  {
+    "name": "Smart Meter Fronius 65A",
+    "price": 1951.59,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "b7cd098f-c78f-435f-b7a1-0dc1fc361e2f"
+  },
+  {
+    "name": "Smart Meter Fronius 5kA",
+    "price": 1951.59,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5395f651-01ad-488f-bcd7-bb00479192ec"
+  },
+  {
+    "name": "Inversor Sunways Monof. 220V STS-3KTL-3",
+    "price": 3215,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "35b514b1-35fe-4954-a41e-7612f542bdb4"
+  },
+  {
+    "name": "Inversor Sunways Monof. 220V STS-5KTL-P",
+    "price": 5043.71,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "522cf20f-a50d-4749-9204-cac79cb6f469"
+  },
+  {
+    "name": "Inversor Sunways Monof. 220V STS-8KTL",
+    "price": 6931.42,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2b1dea0b-1024-401b-8a25-01ed4079697f"
+  },
+  {
+    "name": "Inversor Sunways Monof. 220V STS-10KTL",
+    "price": 7373.85,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "e3b883bf-dc1b-4cf4-a857-79acdf4efe42"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-15KTL-P",
+    "price": 11650.68,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5cbde583-9a12-4dc4-90cc-7066502558a6"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-20KTL-P",
+    "price": 13567.88,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4105bb0d-e8e1-453c-a29d-09e5ae92fa91"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-25KTL-P",
+    "price": 14010.31,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "105bf197-32e3-43e3-9d49-2e05e8669eba"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-33KTL",
+    "price": 20646.77,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "8cf6958e-1b21-40cc-87c0-6b08e823a744"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-50KTL-M",
+    "price": 23596.31,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "0551a0be-d8a0-444a-b2fc-400e0525f4fb"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-100KTL",
+    "price": 40556.16,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "d36b939b-48d5-4626-b36e-f126a85e87f0"
+  },
+  {
+    "name": "Inversor Sunways Trif. 380V STT-125KTL-HV",
+    "price": 43505.7,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9cccdfd8-65a8-40f9-9373-11a3841b62ec"
+  },
+  {
+    "name": "Inversor Refusol Trif 380V 20Kw / Trif.220V 11kw",
+    "price": 12921.79,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "f3eaa511-2a66-43d0-afba-c91447c10d9a"
+  },
+  {
+    "name": "Inversor Refusol Trif 380V 25Kw / Trif. 220V 13kv",
+    "price": 13343.15,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9be2d6e2-0344-43ce-934e-a7410706b8ef"
+  },
+  {
+    "name": "Inversor Refusol Trif 380V 33Kw / Trif. 220V 17,1Kw",
+    "price": 19663.59,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5e156de9-f680-4693-893d-d0a2a660eb8f"
+  },
+  {
+    "name": "Inversor Refusol Trif 380V 50Kw / Trif. 220V 26KW",
+    "price": 22472.68,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "dc7ae522-58c5-4a29-a5a8-7b431aa2b312"
+  },
+  {
+    "name": "Estrutura Romagnole  4 placas Pratic Lite Telha Ondulada",
+    "price": 191.33,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4c40ff3a-021b-4fe3-a982-f252244186bf"
+  },
+  {
+    "name": "Estrutura Romagnole  4 placas Pratic Lite Telha Colonial",
+    "price": 284.93,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5cde7e9a-80e8-4095-9d26-7bc4a8e803a2"
+  },
+  {
+    "name": "Estrutura Romagnole  4 placas Pratic Lite Perfil 2,4 (2pares)",
+    "price": 228.49,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "649beba7-1789-47f1-93d6-70006a8748a6"
+  },
+  {
+    "name": "Estrutura Romagnole  4 placas Pratic Lite Telha Metalica (perfil 55cm)",
+    "price": 192.71,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "1786b4cc-3b39-4580-be3a-18c1604f1174"
+  },
+  {
+    "name": "Estrutura Romagnole  4 placas Pratic Lite Lage",
+    "price": 663.46,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5160caf7-de2f-4568-80af-530b4ea2163d"
+  },
+  {
+    "name": "Cabo solar Cobrecon 4MM",
+    "price": 5.83,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "baa111b6-eb47-4f62-abd7-9a4e705b4e83"
+  },
+  {
+    "name": "Cabo solar Cobrecon 6MM",
+    "price": 6.32,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "20daee1c-4d50-448f-bb22-483928a9b676"
+  },
+  {
+    "name": "Conector MC-4 (Par)",
+    "price": 7.29,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "cdb04708-9f6d-4bc4-bc2a-7bc29879239e"
+  },
+  {
+    "name": "PV Fuse 15A 1000VDC",
+    "price": 14.12,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "b917e803-d337-47e5-9c8d-fc582cece047"
+  },
+  {
+    "name": "PV Fuse 20A 1000VDC",
+    "price": 17,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "d9b03dcf-3ea9-4325-9e85-9aebe11d1a27"
+  },
+  {
+    "name": "PV Fuse 30A 1000VDC",
+    "price": 28.91,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "e8f521c7-6b5e-4bef-b532-b08514c48369"
+  },
+  {
+    "name": "String Box Clamper 1E/1S",
+    "price": 453.4,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "69448374-e649-440c-9b90-c356487dac4e"
+  },
+  {
+    "name": "String Box Clamper 2E/1S",
+    "price": 518.17,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "3dead2bc-469c-4e8f-a4a6-8f5d894cbebf"
+  },
+  {
+    "name": "String Box Clamper 2E/2S",
+    "price": 698.23,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "e7dff6b4-48d5-4490-8da3-36b64f6bab12"
+  },
+  {
+    "name": "String Box Clamper 3E/1S",
+    "price": 712.48,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "04c28564-e7b2-494b-9f7a-926aa038be44"
+  },
+  {
+    "name": "String Box Clamper 3E/3S",
+    "price": 1198.27,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "6754f955-5ee8-469e-9962-1371b331d0bb"
+  },
+  {
+    "name": "String Box Clamper 4E/2S",
+    "price": 770.78,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "26e85fa4-4497-453b-b478-d1fd66202a97"
+  },
+  {
+    "name": "String Box Proauto 4E/4S",
+    "price": 1573.94,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9871438d-e413-41fb-ac7e-4ea7b105e2fe"
+  },
+  {
+    "name": "String Box Clamper 6E/2S",
+    "price": 1781.21,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "6c2b37dd-df8d-4730-b13c-d8ff96c7f156"
+  },
+  {
+    "name": "String Box Proauto 6/6S",
+    "price": 1434.53,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "07ba248b-1f8e-4829-bdc7-762a0031ea07"
+  },
+  {
+    "name": "String Box Proauto 8E/2S 2X50A 1005Vdc (para Tauro)",
+    "price": 1973.97,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4e2bbfb3-9890-4628-b5f6-f1fc3f527daa"
+  },
+  {
+    "name": "String Box Proauto 10E/10S",
+    "price": 2160.74,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "933f3594-3e3d-4726-8d07-14b6f249aa60"
+  },
+  {
+    "name": "String Box Proauto 14E/1-2S 400A 1010Vdc (para Tauro)",
+    "price": 6136.07,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "c42612a0-941b-4a32-8926-6c278ef24311"
+  },
+  {
+    "name": "String Box Proauto 20E/20S 10mppt 20A 1040VDC p/ Sunways 100 e 125",
+    "price": 4032.75,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "a0446725-9f95-4a6e-b54c-f7723d6e7ebc"
+  },
+  {
+    "name": "String Box Proauto 8-4E/8-4S 4mppt 20A p/ sunways 33 e 50",
+    "price": 2096.35,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "fba1d827-57c4-4a75-9833-5a4363c481cd"
+  },
+  {
+    "name": "Auto Transformador POLUX 10 kVA IP23",
+    "price": 3147.15,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "7b573bba-2c86-4ab5-98ab-b56cb1d096f5"
+  },
+  {
+    "name": "Auto Transformador POLUX 15 kVA IP23",
+    "price": 3498.44,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4aa6ee1c-0873-4416-8ee6-d88a37b6db80"
+  },
+  {
+    "name": "Auto Transformador POLUX 20 kVA IP23",
+    "price": 4556.95,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "f7c97e14-0755-47cb-9908-2e7981cc7c34"
+  },
+  {
+    "name": "Auto Transformador POLUX 25 kVA IP23",
+    "price": 5251.8,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "493d8603-bb3e-4100-be8e-c951c9f2af6a"
+  },
+  {
+    "name": "Auto Transformador POLUX 30 kVA IP23",
+    "price": 5513.61,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9f0fc4da-c558-4a0b-96ed-8f753e3288bc"
+  },
+  {
+    "name": "Auto Transformador POLUX 35 kVA IP23",
+    "price": 5637.29,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "b1e3c67f-6b20-4953-ba1a-794cfe0eb513"
+  },
+  {
+    "name": "Auto Transformador POLUX 40 kVA IP23",
+    "price": 6378.77,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5a607a99-afe3-4a8d-a9d6-90b02a404ca8"
+  },
+  {
+    "name": "Auto Transformador POLUX 45 kVA IP23",
+    "price": 6414.26,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "71a16238-24a5-484d-8843-2a38363db33a"
+  },
+  {
+    "name": "Auto Transformador POLUX 50 kVA IP23",
+    "price": 6622.26,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5bab1a2a-8b39-4a8e-abe5-3226d6685947"
+  },
+  {
+    "name": "Auto Transformador POLUX 55 kVA IP23",
+    "price": 8092.36,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "8a20211b-b508-4f5a-b47e-cdc5150d2d9b"
+  },
+  {
+    "name": "Auto Transformador POLUX 60 kVA IP23",
+    "price": 8354.19,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "303f56e2-0683-4ec4-a5a5-5dd1545588cb"
+  },
+  {
+    "name": "Auto Transformador POLUX 65 kVA IP23",
+    "price": 8908.53,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "38f55fae-1e6c-4380-8d48-61e017261b30"
+  },
+  {
+    "name": "Auto Transformador POLUX 70 kVA IP23",
+    "price": 8879.9,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "07c0058f-d8fb-4c01-879c-453c8d2058c4"
+  },
+  {
+    "name": "Auto Transformador POLUX 75 kVA IP23",
+    "price": 9574.76,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "113fd684-a645-470f-9c30-45f4f2a8c119"
+  },
+  {
+    "name": "Auto Transformador POLUX 80 kVA IP23",
+    "price": 9606.68,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "15846d12-6a8d-4f75-8a7a-c298ff4bea32"
+  },
+  {
+    "name": "Auto Transformador POLUX 85 kVA IP23",
+    "price": 10166.12,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "93051269-ebba-40a3-804a-6f5c4de41164"
+  },
+  {
+    "name": "Auto Transformador POLUX 90 kVA IP23",
+    "price": 10617.79,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "b892abaf-f7c5-4adb-a01a-e523c07e93be"
+  },
+  {
+    "name": "Auto Transformador POLUX 95 kVA IP23",
+    "price": 11137.61,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "e3b9227c-c477-44b9-93d7-c51fd04ca889"
+  },
+  {
+    "name": "Auto Transformador POLUX 100 kVA IP23",
+    "price": 12387.38,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5cc1d714-b587-4b2c-9f28-17d7f254d620"
+  },
+  {
+    "name": "Auto Transformador POLUX 110 kVA IP23",
+    "price": 12733.53,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "87509537-1d24-485c-a477-5c5e00218879"
+  },
+  {
+    "name": "Auto Transformador POLUX 112,5kVA IP23",
+    "price": 12891.85,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "745dedab-8ae0-4173-a3c5-3b513c5a41d8"
+  },
+  {
+    "name": "Auto Transformador POLUX 120 kVA IP23",
+    "price": 13206.82,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "6c0c890f-0b3c-457b-a2d0-68c16b2bb1a7"
+  },
+  {
+    "name": "Auto Transformador POLUX 130 kVA IP23",
+    "price": 14494.51,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5aae00bc-8eb8-4443-8fb6-fa5a3f69b7eb"
+  },
+  {
+    "name": "Auto Transformador POLUX 140 kVA IP23",
+    "price": 15707.69,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "49a85621-cd50-4f61-b0db-a8a309b32e8d"
+  },
+  {
+    "name": "Auto Transformador POLUX 150 kVA IP23",
+    "price": 16359.86,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "0f98d84e-9c1a-45af-b05a-15a3b3bb6b64"
+  },
+  {
+    "name": "Auto Transformador POLUX 200 kVA IP23",
+    "price": 19803.37,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "5dbf15a9-f384-4861-9e23-c8e2d2a63402"
+  },
+  {
+    "name": "Auto Transformador POLUX 300 kVA IP23",
+    "price": 28317.84,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "9560fa51-f8d3-48a1-90b6-6417c7001a02"
+  },
+  {
+    "name": "Auto Transformador POLUX 10 kVA IP55",
+    "price": 4006.87,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "a8719aa7-135a-4549-9648-8cb3c6cbd057"
+  },
+  {
+    "name": "Auto Transformador POLUX 15 kVA IP55",
+    "price": 4595.13,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2b142c51-aa2e-4f29-aceb-dadc41d15fb9"
+  },
+  {
+    "name": "Auto Transformador POLUX 20 kVA IP55",
+    "price": 5490.84,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "aecaa08f-1f70-4d5b-b619-9683cbbcdc57"
+  },
+  {
+    "name": "Auto Transformador POLUX 25 kVA IP55",
+    "price": 5822.13,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "3fa8ff42-1525-460b-b198-6085a3a36b9a"
+  },
+  {
+    "name": "Auto Transformador POLUX 30 kVA IP55",
+    "price": 6257.27,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4aca0c8b-b050-4a10-8784-b2a947617f04"
+  },
+  {
+    "name": "Auto Transformador POLUX 35 kVA IP55",
+    "price": 8632.66,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "61cb156f-3a5e-4449-aa0c-d39a4136e12d"
+  },
+  {
+    "name": "Auto Transformador POLUX 40 kVA IP55",
+    "price": 10343.41,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "0181f5f4-ea9d-40e7-b564-700cbc5faba1"
+  },
+  {
+    "name": "Auto Transformador POLUX 45 kVA IP55",
+    "price": 10817.57,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "dc25abc0-1cbf-41c3-ba6b-e431bccc13df"
+  },
+  {
+    "name": "Auto Transformador POLUX 50 kVA IP55",
+    "price": 11197.64,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "380b4fc1-1b8b-4456-9821-24f6b383f103"
+  },
+  {
+    "name": "Auto Transformador POLUX 55 kVA IP55",
+    "price": 11523.68,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "cbf8ce91-4a17-4463-8714-28e45c00512b"
+  },
+  {
+    "name": "Auto Transformador POLUX 60 kVA IP55",
+    "price": 11486.2,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "296ebca3-cbe0-4e94-ae59-e7abae3e2244"
+  },
+  {
+    "name": "Auto Transformador POLUX 65 kVA IP55",
+    "price": 12234.45,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "dfd696b2-a79d-4fea-bb12-7f3c70591d64"
+  },
+  {
+    "name": "Auto Transformador POLUX 70 kVA IP55",
+    "price": 13020.69,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "fb98bfc3-78c5-45eb-b127-88d77a96abca"
+  },
+  {
+    "name": "Auto Transformador POLUX 75 kVA IP55",
+    "price": 12949.65,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "785515c7-15e2-4f68-860e-dc1fbc293f3e"
+  },
+  {
+    "name": "Auto Transformador POLUX 80 kVA IP55",
+    "price": 13725.21,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "db59b39f-a2a3-4d3e-af11-afb58e1c6215"
+  },
+  {
+    "name": "Auto Transformador POLUX 85 kVA IP55",
+    "price": 14149.23,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4c46e640-98d9-463c-a382-d7a5334a8b93"
+  },
+  {
+    "name": "Auto Transformador POLUX 90 kVA IP55",
+    "price": 14372.65,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "a7e14ee9-9a72-4024-a795-c16098a8d515"
+  },
+  {
+    "name": "Auto Transformador POLUX 95 kVA IP55",
+    "price": 17191.08,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "2a987b00-2690-46f1-aeac-8b4d33031208"
+  },
+  {
+    "name": "Auto Transformador POLUX 100 kVA IP55",
+    "price": 20686.7,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "f0f95693-d53b-49d1-9d86-bb84beb124de"
+  },
+  {
+    "name": "Auto Transformador POLUX 110 kVA IP55",
+    "price": 20977.51,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "85915fdf-5a5e-4e75-ab00-3acff4b0b98c"
+  },
+  {
+    "name": "Auto Transformador POLUX 112,5kVA IP55",
+    "price": 21135.57,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "f5c5553a-d631-4e7c-bc02-e944462032fc"
+  },
+  {
+    "name": "Auto Transformador POLUX 120 kVA IP55",
+    "price": 21403.46,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "7fa08a5f-d5fd-4676-b89f-08f798bbdd55"
+  },
+  {
+    "name": "Auto Transformador POLUX 130 kVA IP55",
+    "price": 21688.58,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "338612a6-3d66-4915-b279-160a886e175a"
+  },
+  {
+    "name": "Auto Transformador POLUX 140 kVA IP55",
+    "price": 21989.52,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "ac2dbf5e-612c-4184-87c6-fb4d79101969"
+  },
+  {
+    "name": "Auto Transformador POLUX 150 kVA IP55",
+    "price": 22290.39,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "4f50472b-533e-485d-8c25-471194c590c0"
+  },
+  {
+    "name": "Auto Transformador POLUX 200 kVA IP55",
+    "price": 27254.43,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "bb13c68f-bcab-4ad6-ab4b-c09cbb310087"
+  },
+  {
+    "name": "Auto Transformador POLUX 300 kVA IP55",
+    "price": 45418.88,
+    "image": "/assets/products/placeholder.webp",
+    "categoryId": "8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
+    "id": "fbac3810-0b01-4918-a8d2-1c6a732876ad"
+  }
+]

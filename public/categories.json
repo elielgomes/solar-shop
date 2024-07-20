@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Paineis",
+    "slug": "paineis"
+  },
+  {
+    "id": "2",
+    "name": "Inversores",
+    "slug": "inversores"
+  },
+  {
+    "id": "3",
+    "name": "Estruturas",
+    "slug": "estruturas"
+  },
+  {
+    "id": "4",
+    "name": "Cabos",
+    "slug": "cabos"
+  },
+  {
+    "id": "5",
+    "name": "Conectores",
+    "slug": "conectores"
+  },
+  {
+    "id": "6",
+    "name": "Fusíveis",
+    "slug": "fusiveis"
+  },
+  {
+    "id": "7",
+    "name": "String Box",
+    "slug": "string-box"
+  },
+  {
+    "id": "8",
+    "name": "Transformadores",
+    "slug": "transformadores"
+  }
+]
