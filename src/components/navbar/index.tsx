@@ -12,8 +12,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { categories } from "@/constants/categories";
+import { navLinks } from "@/constants/nav-links";
 import { MenuSheet } from "@/components/navbar/_components/menu-sheet";
 import { SearchSheet } from "@/components/navbar/_components/search-sheet";
+import { routesMap } from "@/constants/routes-map";
 
 export const Navbar: React.FC = () => {
   return (
@@ -24,9 +26,12 @@ export const Navbar: React.FC = () => {
             <MenuSheet />
           </div>
           <div>
-            <span className="text-xl font-semibold text-primary uppercase">
+            <Link
+              href={routesMap.home}
+              className="text-xl font-semibold text-primary uppercase"
+            >
               So<span className="text-foreground">Lar</span>
-            </span>
+            </Link>
           </div>
 
           <div className="flex gap-4 text-foreground">
@@ -58,18 +63,11 @@ export const Navbar: React.FC = () => {
             </div>
             <nav>
               <ul className="flex gap-8 text-sm text-white">
-                <li>
-                  <Link href="#">Home</Link>
-                </li>
-                <li>
-                  <Link href="#">Produtos</Link>
-                </li>
-                <li>
-                  <Link href="#">Sobre</Link>
-                </li>
-                <li>
-                  <Link href="#">Contato</Link>
-                </li>
+                {navLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href}>{link.title}</Link>
+                  </li>
+                ))}
               </ul>
             </nav>
           </div>
