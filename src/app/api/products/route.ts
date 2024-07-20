@@ -47,8 +47,12 @@ const sortProducts = (products: Product[], sort: string): Product[] => {
 
 export const GET = async (req: NextRequest) => {
   const searchParams = req.nextUrl.searchParams;
-  const pageQuery = searchParams.get("page") || 1;
+
+  let pageQuery = parseInt(searchParams.get("page") || "1", 10);
+  pageQuery = pageQuery > 0 ? pageQuery : 1;
+
   const sortQuery = searchParams.get("sort") || "asc";
+
   const categoryQuery = searchParams.get("category");
 
   try {
@@ -58,23 +62,33 @@ export const GET = async (req: NextRequest) => {
     let filteredProducts = productsResponse.data;
 
     if (categoryQuery) {
-      const category = categoriesResponse.data.find(
-        (cat) => cat.slug.toLowerCase() === categoryQuery.toLowerCase()
+      const categories = categoryQuery.toLowerCase().split(",");
+
+      const allCategoriesExist = categories.every((category) =>
+        categoriesResponse.data.some(
+          (cat) => cat.slug.toLowerCase() === category
+        )
       );
 
-      if (!category) {
+      if (!allCategoriesExist) {
         return NextResponse.json(
-          { message: "Categoria não encontrada" },
+          { message: "Uma ou mais categorias não encontradas" },
           { status: 404 }
         );
       }
 
-      filteredProducts = filteredProducts.filter(
-        (product) => product.categoryId === category.id
+      filteredProducts = filteredProducts.filter((product) =>
+        categories.some((category) =>
+          categoriesResponse.data.some(
+            (cat) =>
+              cat.slug.toLowerCase() === category &&
+              product.categoryId === cat.id
+          )
+        )
       );
     }
 
-    const currentPage = parseInt(pageQuery as string, 10);
+    const currentPage = pageQuery;
     const itemsPerPage = 10;
 
     filteredProducts = sortProducts(filteredProducts, sortQuery);
