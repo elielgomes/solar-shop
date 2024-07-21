@@ -1,6 +1,9 @@
-import React from "react";
+"use client";
+
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import { Search, ArrowRight } from "lucide-react";
+import React, { useEffect, useState } from "react";
 
 import {
   Sheet,
@@ -16,8 +19,15 @@ import { routesMap } from "@/constants/routes-map";
 import { ProductSearchInput } from "@/components/product-search-input";
 
 export const SearchSheet: React.FC = () => {
+  const searchParams = useSearchParams();
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [searchParams]);
+
   return (
-    <Sheet>
+    <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger asChild>
         <Search size={24} />
       </SheetTrigger>
