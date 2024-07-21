@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import { AlignLeft } from "lucide-react";
 
 import {
@@ -9,6 +10,7 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { navLinks } from "@/constants/nav-links";
+import { routesMap } from "@/constants/routes-map";
 import { categories } from "@/constants/categories";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ProductSearchInput } from "@/components/product-search-input";
@@ -41,26 +43,30 @@ export const MenuSheet: React.FC = () => {
             <div className="mt-4">
               <ProductSearchInput />
             </div>
-            <div className="grid gap-2 py-4">
+            <ul className="grid gap-2 py-4">
               {navLinks.map((link) => (
                 <SheetClose asChild key={link.title}>
                   <li className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40">
-                    {link.title}
+                    <Link href={link.href} className="h-full w-full">
+                      {link.title}
+                    </Link>
                   </li>
                 </SheetClose>
               ))}
-            </div>
+            </ul>
           </TabsContent>
           <TabsContent value="categories">
-            <div className="grid gap-2 py-4">
+            <ul className="grid gap-2 py-4">
               {categories.map((category) => (
                 <SheetClose asChild key={category.title}>
                   <li className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40">
-                    {category.title}
+                    <Link href={category.href} className="h-full w-full">
+                      {category.title}
+                    </Link>
                   </li>
                 </SheetClose>
               ))}
-            </div>
+            </ul>
           </TabsContent>
         </Tabs>
       </SheetContent>
