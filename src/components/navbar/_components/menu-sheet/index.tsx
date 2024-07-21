@@ -1,5 +1,5 @@
 import React from "react";
-import { AlignLeft, Search } from "lucide-react";
+import { AlignLeft } from "lucide-react";
 
 import {
   Sheet,
@@ -7,11 +7,11 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { navLinks } from "@/constants/nav-links";
 import { categories } from "@/constants/categories";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { ProductSearchInput } from "@/components/product-search-input";
 
 export const MenuSheet: React.FC = () => {
   return (
@@ -39,24 +39,7 @@ export const MenuSheet: React.FC = () => {
           </TabsList>
           <TabsContent value="menu">
             <div className="mt-4">
-              <div className="relative">
-                <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
-                  <Search />
-                </div>
-                <Input
-                  type="search"
-                  id="default-search"
-                  className="block w-full ps-10 text-sm focus-visible:ring-0 focus-visible:ring-offset-0"
-                  placeholder="Busque por produtos..."
-                  required
-                />
-                <Button
-                  type="submit"
-                  className="text-white absolute bottom-0.5 top-0.5 text-xs h-auto end-0.5"
-                >
-                  Buscar
-                </Button>
-              </div>
+              <ProductSearchInput />
             </div>
             <div className="grid gap-2 py-4">
               {navLinks.map((link) => (
