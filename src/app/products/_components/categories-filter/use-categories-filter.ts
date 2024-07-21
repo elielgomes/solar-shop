@@ -15,6 +15,7 @@ export const useCategoriesFilter = () => {
 
   const updateURLParams = (categories: string[]) => {
     const params = new URLSearchParams(searchParams);
+    params.delete("page");
     params.set("category", categories.join(","));
     params.get("category")?.trim() === "" && params.delete("category");
     router.replace(`${pathname}?${params.toString()}`);
