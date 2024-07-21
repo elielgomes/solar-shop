@@ -50,7 +50,7 @@ export const ProductSearchInput: React.FC<ProductSearchInputProps> = ({
           "block w-full ps-10 text-sm focus-visible:ring-0 focus-visible:ring-offset-0",
           className
         )}
-        placeholder="Busque por produtos..."
+        placeholder="Buscar"
         required
         value={searchInput}
         onChange={handleInput}
