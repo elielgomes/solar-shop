@@ -12,6 +12,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { routesMap } from "@/constants/routes-map";
 import { ProductSearchInput } from "@/components/product-search-input";
 
 export const SearchSheet: React.FC = () => {
@@ -35,7 +36,7 @@ export const SearchSheet: React.FC = () => {
             asChild
             className="flex gap-2 items-center py-4 px-6 h-full w-full"
           >
-            <Link href="#">
+            <Link href={routesMap.products}>
               Ver todos
               <ArrowRight className="size-4" />
             </Link>
