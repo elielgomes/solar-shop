@@ -43,30 +43,32 @@ export const MenuSheet: React.FC = () => {
             <div className="mt-4">
               <ProductSearchInput />
             </div>
-            <ul className="grid gap-2 py-4">
+            <div className="grid gap-2 py-4">
               {navLinks.map((link) => (
                 <SheetClose asChild key={link.title}>
-                  <li className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40">
-                    <Link href={link.href} className="h-full w-full">
-                      {link.title}
-                    </Link>
-                  </li>
+                  <Link
+                    href={link.href}
+                    className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40"
+                  >
+                    {link.title}
+                  </Link>
                 </SheetClose>
               ))}
-            </ul>
+            </div>
           </TabsContent>
           <TabsContent value="categories">
-            <ul className="grid gap-2 py-4">
+            <div className="grid gap-2 py-4">
               {categories.map((category) => (
                 <SheetClose asChild key={category.title}>
-                  <li className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40">
-                    <Link href={category.href} className="h-full w-full">
-                      {category.title}
-                    </Link>
-                  </li>
+                  <Link
+                    href={category.href}
+                    className="text-sm cursor-pointer w-full flex hover:text-primary py-2 px-4 transition-colors rounded-md hover:bg-muted/40"
+                  >
+                    {category.title}
+                  </Link>
                 </SheetClose>
               ))}
-            </ul>
+            </div>
           </TabsContent>
         </Tabs>
       </SheetContent>
