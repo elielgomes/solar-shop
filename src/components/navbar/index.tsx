@@ -48,9 +48,9 @@ export const Navbar: React.FC = () => {
           <div className="flex h-full items-center gap-12">
             <div className="h-full">
               <Select>
-                <SelectTrigger className="font-semibold text-primary-foreground bg-primary border-none w-56 h-full rounded-none outline-none focus:ring-offset-0 focus:ring-0 transition-colors">
+                <SelectTrigger className="font-semibold text-primary-foreground bg-primary border-none w-40 h-full rounded-none outline-none focus:ring-offset-0 focus:ring-0 transition-colors">
                   <Menu className="size-6" />
-                  <SelectValue placeholder="Todas Categorias" />
+                  <SelectValue placeholder="Categorias" />
                 </SelectTrigger>
                 <SelectContent>
                   {categories.map((category) => (
