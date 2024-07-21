@@ -17,7 +17,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   });
   return (
     <Link href={`${routesMap.products}/${product.id}`}>
-      <div className="h-96 bg-card rounded overflow-hidden">
+      <div className="h-96 bg-card rounded overflow-hidden shadow-md shadow-gray-600/5">
         <div className="w-full relative h-2/3">
           <Image
             src={product.image}
