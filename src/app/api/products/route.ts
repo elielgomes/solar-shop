@@ -5,6 +5,7 @@ import type {
   ProductWithCategoryDetails,
 } from "@/interfaces";
 import { api } from "@/lib/axios/api";
+import { normalizeString } from "@/helpers/normalize-string";
 
 /**
  * @function enrichProductWithCategory
@@ -52,14 +53,21 @@ export const GET = async (req: NextRequest) => {
   pageQuery = pageQuery > 0 ? pageQuery : 1;
 
   const sortQuery = searchParams.get("sort") || "asc";
-
   const categoryQuery = searchParams.get("category");
+  const searchQuery = searchParams.get("search");
 
   try {
     const categoriesResponse = await api.get<Category[]>("/categories.json");
     const productsResponse = await api.get<Product[]>("/products.json");
 
     let filteredProducts = productsResponse.data;
+
+    if (searchQuery) {
+      const normalizedSearchQuery = normalizeString(searchQuery);
+      filteredProducts = filteredProducts.filter((product) =>
+        normalizeString(product.name).includes(normalizedSearchQuery)
+      );
+    }
 
     if (categoryQuery) {
       const categories = categoryQuery.toLowerCase().split(",");
@@ -89,7 +97,7 @@ export const GET = async (req: NextRequest) => {
     }
 
     const currentPage = pageQuery;
-    const itemsPerPage = 10;
+    const itemsPerPage = 12;
 
     filteredProducts = sortProducts(filteredProducts, sortQuery);
 
