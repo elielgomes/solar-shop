@@ -2,8 +2,9 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import { routesMap } from "@/constants/routes-map";
 import { Badge } from "@/components/ui/badge";
+import { routesMap } from "@/constants/routes-map";
+import { currencyFormat } from "@/helpers/currency-format";
 import { type ProductWithCategoryDetails } from "@/interfaces";
 
 interface ProductCardProps {
@@ -11,10 +12,6 @@ interface ProductCardProps {
 }
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
-  const formatter = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL",
-  });
   return (
     <Link href={`${routesMap.products}/${product.id}`}>
       <div className="h-96 bg-card rounded overflow-hidden shadow-md shadow-gray-600/5">
@@ -34,7 +31,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             {product.name}
           </h3>
           <p className="text-sm absolute bottom-4 left-6 font-semibold text-muted-foreground">
-            {formatter.format(product.price)}
+            {currencyFormat(product.price)}
           </p>
         </div>
       </div>
