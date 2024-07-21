@@ -36,7 +36,33 @@
   * {
     @apply border-border;
   }
+
+  *::selection {
+    @apply bg-primary text-primary-foreground;
+  }
+
+  body,
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply bg-background text-foreground overflow-x-hidden;
+  }
+
+  body::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  body::-webkit-scrollbar-track {
+    @apply bg-secondary;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-2xl;
+  }
+
+  body {
+    @apply bg-background text-foreground;
   }
 }
