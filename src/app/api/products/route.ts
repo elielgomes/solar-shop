@@ -14,7 +14,7 @@ import { normalizeString } from "@/helpers/normalize-string";
  * @param {Category[]} categories - The list of categories
  * @returns {Product} - The product with category details
  */
-const enrichProductWithCategory = (
+export const enrichProductWithCategory = (
   product: Product,
   categories: Category[]
 ): ProductWithCategoryDetails => {
