@@ -6,7 +6,7 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 
 import { category } from "@/services/category";
 
-export const useCategoriesSidebar = () => {
+export const useCategoriesFilter = () => {
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const router = useRouter();
