@@ -5,6 +5,7 @@ export interface Product {
   image: string;
   categoryId: string;
   description: string;
+  category?: Category;
 }
 
 export interface Category {
