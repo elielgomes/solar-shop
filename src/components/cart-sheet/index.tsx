@@ -39,7 +39,10 @@ export const CartSheet: React.FC = () => {
           </div>
         </div>
       </SheetTrigger>
-      <SheetContent className="p-0 h-screen flex flex-col gap-0">
+      <SheetContent
+        className="p-0 h-screen flex flex-col gap-0"
+        onOpenAutoFocus={(e) => e.preventDefault()}
+      >
         <SheetHeader className="p-6 pb-4 border-b border-border">
           <SheetTitle>Carrinho</SheetTitle>
         </SheetHeader>
