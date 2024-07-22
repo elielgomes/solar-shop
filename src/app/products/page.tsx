@@ -11,34 +11,25 @@ import {
 } from "@/components/ui/breadcrumb";
 import { product } from "@/services/product";
 import { routesMap } from "@/constants/routes-map";
-import { ProductCard } from "@/components/product-card";
+import { reduceSearchParams } from "@/helpers/reduce-search-params";
+import { ProductGrid } from "@/app/products/_components/product-grid";
+import { ProductSearchInput } from "@/components/product-search-input";
 import { FiltersSheet } from "@/app/products/_components/filters-sheet";
 import { CategoriesSidebar } from "@/app/products/_components/categories-sidebar";
 import { SelectSortProducts } from "@/app/products/_components/select-sort-products";
 import { CleanFiltersButton } from "@/app/products/_components/clean-filters-button";
-import { ProductListPagination } from "@/app/products/_components/product-list-pagination";
 
 interface ProductsPageProps {
   searchParams?: { [key: string]: string | string[] | undefined };
 }
 
 const ProductsPage: NextPage<ProductsPageProps> = async ({ searchParams }) => {
-  let queryParams = "";
-  if (searchParams) {
-    const paramsEntries = Object.entries(searchParams);
-    queryParams = paramsEntries.reduce((acc, [key, value], index) => {
-      if (value !== undefined && value !== "") {
-        const prefix = index === 0 ? "?" : "&";
-        return `${acc}${prefix}${key}=${value}`;
-      }
-      return acc;
-    }, "");
-  }
+  let queryParams = searchParams ? reduceSearchParams(searchParams) : "";
 
   const hasSearchParams = () => {
-    const paramsEntries = searchParams && Object.entries(searchParams);
     return (
-      paramsEntries && paramsEntries.some(([, value]) => value !== undefined)
+      searchParams &&
+      Object.entries(queryParams).some(([, value]) => value !== undefined)
     );
   };
 
@@ -63,7 +54,10 @@ const ProductsPage: NextPage<ProductsPageProps> = async ({ searchParams }) => {
             <h1 className="text-xl sm:text-2xl font-bold">Produtos</h1>
             <div className="hidden md:flex items-center gap-4">
               {hasSearchParams() && <CleanFiltersButton />}
-              <SelectSortProducts />
+              <ProductSearchInput withButton={false} />
+              <div>
+                <SelectSortProducts />
+              </div>
             </div>
             <div className="md:hidden flex items-center gap-4">
               {hasSearchParams() && <CleanFiltersButton />}
@@ -85,19 +79,9 @@ const ProductsPage: NextPage<ProductsPageProps> = async ({ searchParams }) => {
         </div>
 
         <hr className="col-span-full" />
-        <CategoriesSidebar />
-        <div className="lg:col-span-3 xl:col-span-4 grid min-[425px]:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-12">
-          {productList?.products.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
 
-          <div className="col-span-full">
-            <ProductListPagination
-              totalPages={productList.totalPages}
-              currentPage={productList.currentPage}
-            />
-          </div>
-        </div>
+        <CategoriesSidebar />
+        <ProductGrid productList={productList} />
       </div>
     </main>
   );
