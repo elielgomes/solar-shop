@@ -1,42 +1,23 @@
 [
   {
-    "id": "1",
-    "name": "Paineis",
-    "slug": "paineis"
-  },
-  {
-    "id": "2",
+    "id": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
     "name": "Inversores",
     "slug": "inversores"
   },
   {
-    "id": "3",
+    "id": "8842ccc1-9e5d-49fd-8965-e5aa9bfba2a0",
+    "name": "Módulos",
+    "slug": "modulos"
+  },
+  {
+    "id": "cc3311e6-04bc-406e-8ab7-f56a350d37a4",
     "name": "Estruturas",
     "slug": "estruturas"
   },
+
   {
-    "id": "4",
-    "name": "Cabos",
-    "slug": "cabos"
-  },
-  {
-    "id": "5",
-    "name": "Conectores",
-    "slug": "conectores"
-  },
-  {
-    "id": "6",
-    "name": "Fusíveis",
-    "slug": "fusiveis"
-  },
-  {
-    "id": "7",
-    "name": "String Box",
-    "slug": "string-box"
-  },
-  {
-    "id": "8",
-    "name": "Transformadores",
-    "slug": "transformadores"
+    "id": "53e866fa-216d-4729-a677-f3a18095116e",
+    "name": "Elétricos",
+    "slug": "eletricos"
   }
 ]
