@@ -26,7 +26,7 @@ const CartPage: NextPage = () => {
   );
 
   const taxesEstimate = subTotal * 0.005;
-  const shippingEstimate = subTotal * 0.01;
+  const shippingEstimate = cartStore.products.length > 0 ? 37.6 : 0;
   const total = subTotal + taxesEstimate + shippingEstimate;
 
   return (
@@ -89,10 +89,7 @@ const CartPage: NextPage = () => {
                 <div className="border-t border-gray-200 pt-4 flex items-center justify-between">
                   <div className="flex items-center text-sm text-gray-600">
                     <span>Taxa de entrega</span>
-                    <a
-                      href="#"
-                      className="ml-2 flex-shrink-0 text-gray-400 hover:text-gray-500"
-                    >
+                    <span className="ml-2 flex-shrink-0 text-gray-400 hover:text-gray-500">
                       <span className="sr-only">
                         Saiba mais sobre como o frete é calculado
                       </span>
@@ -109,7 +106,7 @@ const CartPage: NextPage = () => {
                           clip-rule="evenodd"
                         />
                       </svg>
-                    </a>
+                    </span>
                   </div>
                   <div className="text-sm font-medium text-gray-900">
                     {formatCurrency(shippingEstimate)}
@@ -118,10 +115,7 @@ const CartPage: NextPage = () => {
                 <div className="border-t border-gray-200 pt-4 flex items-center justify-between">
                   <div className="flex text-sm text-gray-600">
                     <span>Imposto calculado</span>
-                    <a
-                      href="#"
-                      className="ml-2 flex-shrink-0 text-gray-400 hover:text-gray-500"
-                    >
+                    <span className="ml-2 flex-shrink-0 text-gray-400 hover:text-gray-500">
                       <span className="sr-only">
                         Saiba mais sobre como os impostos são calculados
                       </span>
@@ -138,7 +132,7 @@ const CartPage: NextPage = () => {
                           clip-rule="evenodd"
                         />
                       </svg>
-                    </a>
+                    </span>
                   </div>
                   <div className="text-sm font-medium text-gray-900">
                     {formatCurrency(taxesEstimate)}
