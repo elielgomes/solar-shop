@@ -19,6 +19,13 @@ import { MenuSheet } from "@/components/navbar/_components/menu-sheet";
 import { SearchSheet } from "@/components/navbar/_components/search-sheet";
 import { UserAccountPopover } from "@/components/navbar/_components/user-account-popover";
 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
 export const Navbar: React.FC = () => {
   return (
     <header className="z-50 w-full fixed top-0 left-0 right-0 shadow-md shadow-gray-600/5">
@@ -49,19 +56,22 @@ export const Navbar: React.FC = () => {
         <div className="container flex h-full items-center justify-between">
           <div className="flex h-full items-center gap-12">
             <div className="h-full">
-              <Select>
-                <SelectTrigger className="font-semibold text-primary-foreground bg-primary border-none w-40 h-full rounded-none outline-none focus:ring-offset-0 focus:ring-0 transition-colors">
-                  <Menu className="size-6" />
-                  <SelectValue placeholder="Categorias" />
-                </SelectTrigger>
-                <SelectContent>
+              <DropdownMenu>
+                <DropdownMenuTrigger className="flex items-center justify-start gap-2 p-4 font-semibold text-primary-foreground bg-primary border-none w-40 h-full rounded-none outline-none focus:ring-offset-0 focus:ring-0 transition-colors">
+                  <Menu className="size-6" /> Categorias
+                </DropdownMenuTrigger>
+                <DropdownMenuContent className="w-40">
                   {categories.map((category) => (
-                    <SelectItem key={category.slug} value={category.slug}>
-                      {category.title}
-                    </SelectItem>
+                    <DropdownMenuItem
+                      key={category.slug}
+                      asChild
+                      className="cursor-pointer"
+                    >
+                      <Link href={category.href}>{category.title}</Link>
+                    </DropdownMenuItem>
                   ))}
-                </SelectContent>
-              </Select>
+                </DropdownMenuContent>
+              </DropdownMenu>
             </div>
             <nav>
               <ul className="flex gap-8 text-sm text-white">
