@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { NextPage } from "next";
-import { FilterX, Search } from "lucide-react";
+import { Search } from "lucide-react";
 
 import { product } from "@/services/product";
 import { ProductCard } from "@/components/product-card";
@@ -9,8 +8,6 @@ import { CategoriesSidebar } from "@/app/products/_components/categories-sidebar
 import { SelectSortProducts } from "@/app/products/_components/select-sort-products";
 import { CleanFiltersButton } from "@/app/products/_components/clean-filters-button";
 import { ProductListPagination } from "@/app/products/_components/product-list-pagination";
-import { routesMap } from "@/constants/routes-map";
-import { Button } from "@/components/ui/button";
 
 interface ProductsPageProps {
   searchParams?: { [key: string]: string | string[] | undefined };
