@@ -9,6 +9,11 @@ export const categories = [
     href: hrefCategory("paineis"),
   },
   {
+    title: "Módulos",
+    slug: "modulos",
+    href: hrefCategory("modulos"),
+  },
+  {
     title: "Inversores",
     slug: "inversores",
     href: hrefCategory("inversores"),
@@ -17,30 +22,5 @@ export const categories = [
     title: "Estruturas",
     slug: "estruturas",
     href: hrefCategory("estruturas"),
-  },
-  {
-    title: "Cabos",
-    slug: "cabos",
-    href: hrefCategory("cabos"),
-  },
-  {
-    title: "Conectores",
-    slug: "conectores",
-    href: hrefCategory("conectores"),
-  },
-  {
-    title: "Fusíveis",
-    slug: "fusiveis",
-    href: hrefCategory("fusiveis"),
-  },
-  {
-    title: "String Box",
-    slug: "string-box",
-    href: hrefCategory("string-box"),
-  },
-  {
-    title: "Transformadores",
-    slug: "transformadores",
-    href: hrefCategory("transformadores"),
   },
 ] as const;
