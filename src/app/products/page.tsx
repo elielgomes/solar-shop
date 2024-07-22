@@ -1,7 +1,16 @@
 import { NextPage } from "next";
 import { Search } from "lucide-react";
 
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb";
 import { product } from "@/services/product";
+import { routesMap } from "@/constants/routes-map";
 import { ProductCard } from "@/components/product-card";
 import { FiltersSheet } from "@/app/products/_components/filters-sheet";
 import { CategoriesSidebar } from "@/app/products/_components/categories-sidebar";
@@ -38,6 +47,17 @@ const ProductsPage: NextPage<ProductsPageProps> = async ({ searchParams }) => {
   return (
     <main className="flex min-h-screen flex-col items-center mt-16 md:mt-28">
       <div className="container grid grid-cols-1 lg:grid-cols-4 xl:grid-cols-5 gap-x-8 gap-y-8 py-12">
+        <Breadcrumb className="col-span-full">
+          <BreadcrumbList>
+            <BreadcrumbItem>
+              <BreadcrumbLink href={routesMap.home}>Home</BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem>
+              <BreadcrumbPage>Produtos</BreadcrumbPage>
+            </BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <div className="col-span-full">
           <div className="flex justify-between items-center">
             <h1 className="text-xl sm:text-2xl font-bold">Produtos</h1>
