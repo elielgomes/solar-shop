@@ -77,7 +77,7 @@ const ProductDetailPage: NextPage<ProductDetailPageProps> = ({ params }) => {
           <div className="min-h-[500px] lg:grid">
             <div className="relative w-full h-full">
               <Image
-                src="/assets/products/placeholder.webp"
+                src={product?.image || "/assets/products/placeholder.webp"}
                 alt={product?.name || "Product image"}
                 fill
                 className="object-cover w-full h-full"
