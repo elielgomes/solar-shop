@@ -45,9 +45,19 @@ export const CartSheet: React.FC = () => {
         </SheetHeader>
         <ScrollArea className="px-2 flex-1 mb-[200px]">
           <div className="mt-4 flex flex-col divide-y divide-border">
-            {cartStore.products.map((product) => (
-              <CartProductCard key={product.id} data={product} />
-            ))}
+            {cartStore.products.length > 0 ? (
+              cartStore.products.map((product) => (
+                <CartProductCard key={product.id} data={product} />
+              ))
+            ) : (
+              <div className="flex py-6 sm:py-10">
+                <div className="flex-1">
+                  <p className="text-center text-lg text-gray-500">
+                    Seu carrinho está vazio.
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         </ScrollArea>
         <div className="border-t border-border py-6 px-4 sm:px-6 absolute left-0 right-0 bottom-0 bg-card">
