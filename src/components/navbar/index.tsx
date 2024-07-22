@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Menu, ShoppingBag, User } from "lucide-react";
+import { Menu, User } from "lucide-react";
 
 import {
   Select,
@@ -11,11 +11,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { categories } from "@/constants/categories";
 import { navLinks } from "@/constants/nav-links";
+import { routesMap } from "@/constants/routes-map";
+import { CartSheet } from "@/components/cart-sheet";
+import { categories } from "@/constants/categories";
 import { MenuSheet } from "@/components/navbar/_components/menu-sheet";
 import { SearchSheet } from "@/components/navbar/_components/search-sheet";
-import { routesMap } from "@/constants/routes-map";
+import { UserAccountPopover } from "@/components/navbar/_components/user-account-popover";
 
 export const Navbar: React.FC = () => {
   return (
@@ -38,8 +40,8 @@ export const Navbar: React.FC = () => {
             <div className="hidden md:block">
               <SearchSheet />
             </div>
-            <User size={24} />
-            <ShoppingBag size={24} />
+            <UserAccountPopover />
+            <CartSheet />
           </div>
         </div>
       </div>
@@ -71,7 +73,7 @@ export const Navbar: React.FC = () => {
               </ul>
             </nav>
           </div>
-          <Link href="" className="text-white text-sm">
+          <Link href={routesMap.login} className="text-white text-sm">
             Login
           </Link>
         </div>
