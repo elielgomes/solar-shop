@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { Badge } from "@/components/ui/badge";
 import { routesMap } from "@/constants/routes-map";
-import { currencyFormat } from "@/helpers/currency-format";
+import { formatCurrency } from "@/helpers/format-currency";
 import { type ProductWithCategoryDetails } from "@/interfaces";
 
 interface ProductCardProps {
@@ -14,12 +14,13 @@ interface ProductCardProps {
 export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <Link href={`${routesMap.products}/${product.id}`}>
-      <div className="h-96 bg-card rounded overflow-hidden shadow-md shadow-gray-600/5">
-        <div className="w-full relative h-2/3">
+      <div className="h-96 bg-card rounded overflow-hidden shadow-md shadow-gray-600/5 group">
+        <div className="w-full relative h-2/3 bg-card">
           <Image
             src={product.image}
-            className="object-cover object-center w-full h-full"
-            fill
+            className="object-contain object-center h-full w-full group-hover:scale-105 transition-transform duration-300"
+            height={250}
+            width={350}
             alt="Product Image"
           />
           <Badge className="text-xs mb-2 absolute top-0 right-0 rounded-none rounded-es">
@@ -31,7 +32,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             {product.name}
           </h3>
           <p className="text-sm absolute bottom-4 left-6 font-semibold text-muted-foreground">
-            {currencyFormat(product.price)}
+            {formatCurrency(product.price)}
           </p>
         </div>
       </div>
