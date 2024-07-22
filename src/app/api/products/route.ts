@@ -55,6 +55,7 @@ export const GET = async (req: NextRequest) => {
   const sortQuery = searchParams.get("sort") || "asc";
   const categoryQuery = searchParams.get("category");
   const searchQuery = searchParams.get("search");
+  const limitQuery = parseInt(searchParams.get("limit") || "12", 10);
 
   try {
     const categoriesResponse = await api.get<Category[]>("/categories.json");
@@ -97,7 +98,8 @@ export const GET = async (req: NextRequest) => {
     }
 
     const currentPage = pageQuery;
-    const itemsPerPage = 12;
+    const itemsPerPage =
+      !isNaN(limitQuery) && limitQuery > 0 && limitQuery < 12 ? limitQuery : 12;
 
     filteredProducts = sortProducts(filteredProducts, sortQuery);
 
