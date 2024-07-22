@@ -10,10 +10,13 @@ import { Button } from "@/components/ui/button";
 import { routesMap } from "@/constants/routes-map";
 
 interface ProductSearchInputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {}
+  extends React.InputHTMLAttributes<HTMLInputElement> {
+  withButton?: boolean;
+}
 
 export const ProductSearchInput: React.FC<ProductSearchInputProps> = ({
   className,
+  withButton = true,
   ...props
 }) => {
   const searchParams = useSearchParams();
@@ -55,12 +58,14 @@ export const ProductSearchInput: React.FC<ProductSearchInputProps> = ({
         value={searchInput}
         onChange={handleInput}
       />
-      <Button
-        type="submit"
-        className="text-white absolute bottom-0.5 top-0.5 text-xs h-auto end-0.5"
-      >
-        Buscar
-      </Button>
+      {withButton && (
+        <Button
+          type="submit"
+          className="text-white absolute bottom-0.5 top-0.5 text-xs h-auto end-0.5"
+        >
+          Buscar
+        </Button>
+      )}
     </form>
   );
 };
