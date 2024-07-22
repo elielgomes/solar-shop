@@ -14,7 +14,10 @@ export const UserAccountPopover: React.FC = () => {
       <PopoverTrigger asChild className="cursor-pointer">
         <User size={24} />
       </PopoverTrigger>
-      <PopoverContent className="w-64">
+      <PopoverContent
+        className="w-64"
+        onOpenAutoFocus={(e) => e.preventDefault()}
+      >
         <div className="grid gap-4">
           <div className="space-y-2">
             <h4 className="font-medium leading-none">Entre em sua conta</h4>
