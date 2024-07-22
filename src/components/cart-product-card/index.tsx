@@ -5,27 +5,17 @@ import Image from "next/image";
 import { MinusIcon, PlusIcon, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
+import { ProductCartProps } from "@/stores/cart-store";
+import { useProductCart } from "@/hooks/use-product-cart";
 import { formatCurrency } from "@/helpers/format-currency";
-import { ProductCartProps, useCartStore } from "@/stores/cart-store";
 
 interface CartProductCardProps {
   data: ProductCartProps;
 }
 
 export const CartProductCard: React.FC<CartProductCardProps> = ({ data }) => {
-  const cartStore = useCartStore();
-
-  const handleAddProductToCart = () => {
-    cartStore.addProduct(data);
-  };
-
-  const handleRemoveProduct = () => {
-    cartStore.removeProduct(data.id);
-  };
-
-  const handleDeleteProduct = () => {
-    cartStore.deleteProductFromCart(data.id);
-  };
+  const { handleAddProductToCart, handleRemoveProduct, handleDeleteProduct } =
+    useProductCart(data);
 
   return (
     <div className="flex p-4 relative">
@@ -39,7 +29,7 @@ export const CartProductCard: React.FC<CartProductCardProps> = ({ data }) => {
         <Image
           height={250}
           width={250}
-          src="/assets/products/placeholder.webp"
+          src={data.image || "/assets/products/placeholder.webp"}
           alt="Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch."
           className="h-full w-full object-cover object-center"
         />
@@ -54,6 +44,7 @@ export const CartProductCard: React.FC<CartProductCardProps> = ({ data }) => {
         </div>
         <div className="flex gap-1 items-center">
           <Button
+            type="button"
             onClick={handleRemoveProduct}
             variant="ghost"
             className="size-6 p-0 flex justify-center items-center"
@@ -64,6 +55,7 @@ export const CartProductCard: React.FC<CartProductCardProps> = ({ data }) => {
             {data.quantity?.toString()}
           </span>
           <Button
+            type="button"
             onClick={handleAddProductToCart}
             variant="ghost"
             className="size-6 p-0 flex justify-center items-center"
