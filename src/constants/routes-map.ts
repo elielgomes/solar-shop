@@ -4,4 +4,5 @@ export const routesMap = {
   cart: "/cart",
   about: "/about",
   contact: "/contact",
+  login: "/login",
 } as const;
