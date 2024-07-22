@@ -21,7 +21,7 @@ export const useCategoriesFilter = () => {
     router.replace(`${pathname}?${params.toString()}`);
   };
 
-  const { data: categoryList } = useSuspenseQuery({
+  const { data: categoryList, isLoading } = useSuspenseQuery({
     queryKey: ["categories"],
     queryFn: category.getAll,
     refetchOnWindowFocus: false,
@@ -56,6 +56,7 @@ export const useCategoriesFilter = () => {
   return {
     categoryParams,
     categoryList,
+    isLoading,
     handleFilterCategory,
     clearFilterCategory,
   };
