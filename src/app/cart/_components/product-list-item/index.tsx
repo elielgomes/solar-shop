@@ -19,7 +19,7 @@ export const ProductListItem: React.FC<ProductListItemProps> = ({ data }) => {
 
   return (
     <li className="flex py-6 sm:py-10">
-      <div className="flex-shrink-0 bg-blue-50 rounded-md">
+      <div className="flex-shrink-0 bg-blue-50 rounded-md w-32 h-32 sm:w-48 sm:h-48">
         <Image
           src={data.image}
           alt={data.name}
@@ -33,10 +33,10 @@ export const ProductListItem: React.FC<ProductListItemProps> = ({ data }) => {
         <div className="relative pr-9 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:pr-0">
           <div>
             <div className="flex justify-between">
-              <h3 className="text-sm">
+              <h3>
                 <Link
                   href={`${routesMap.products}/${data.id}`}
-                  className="font-medium text-gray-700 hover:text-gray-800"
+                  className="font-medium text-gray-700 hover:text-gray-800 text-xs sm:text-sm line-clamp-3"
                 >
                   {data.name}
                 </Link>
