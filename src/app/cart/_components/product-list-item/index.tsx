@@ -19,11 +19,11 @@ export const ProductListItem: React.FC<ProductListItemProps> = ({ data }) => {
 
   return (
     <li className="flex py-6 sm:py-10">
-      <div className="flex-shrink-0">
+      <div className="flex-shrink-0 bg-blue-50 rounded-md">
         <Image
           src={data.image}
           alt={data.name}
-          className="w-24 h-24 rounded-md object-center object-cover sm:w-48 sm:h-48"
+          className="w-full h-full object-center object-contain sm:w-48 sm:h-48 mix-blend-multiply"
           width={192}
           height={192}
         />
