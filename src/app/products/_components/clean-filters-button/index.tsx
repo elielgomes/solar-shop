@@ -21,7 +21,7 @@ export const CleanFiltersButton: React.FC = () => {
               href={routesMap.products}
               className="w-fit flex items-center gap-2 font-semibold text-sm text-destructive bg-destructive/5 p-2 shadow-md shadow-gray-600/5 border border-destructive rounded"
             >
-              <FilterX className="size-4" />
+              <FilterX className="size-4 text-destructive" />
             </Link>
           </Button>
         </TooltipTrigger>
