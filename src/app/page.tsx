@@ -3,19 +3,11 @@ import Image from "next/image";
 import { NextPage } from "next";
 import { ArrowRightIcon } from "lucide-react";
 
-import { product } from "@/services/product";
 import { Button } from "@/components/ui/button";
 import { routesMap } from "@/constants/routes-map";
-import { hrefCategory } from "@/constants/categories";
-import { ProductCarousel } from "@/components/product-carousel";
+import { ProductsCarouselSection } from "@/app/_components/products-carousel-section";
 
-const HomePage: NextPage = async () => {
-  const categories = ["estruturas", "eletricos", "inversores"];
-  const promises = categories.map((category) =>
-    product.getAll(`?category=${category}&limit=6`)
-  );
-  const products = await Promise.all(promises);
-
+const HomePage: NextPage = () => {
   return (
     <main className="min-h-screen my-16 md:my-28">
       <div className="relative bg-blue-50 overflow-hidden lg:h-[500px]">
@@ -38,7 +30,7 @@ const HomePage: NextPage = async () => {
                       className="size-10 sm:size-12 md:size-14 text-orange-400"
                       stroke="currentColor"
                       fill="currentColor"
-                      stroke-width="0"
+                      strokeWidth="0"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
@@ -80,6 +72,7 @@ const HomePage: NextPage = async () => {
             width={1920}
             height={900}
             alt="Banner"
+            priority
           />
         </div>
       </div>
@@ -93,20 +86,7 @@ const HomePage: NextPage = async () => {
             solar.
           </p>
         </div>
-        <div className="text-xl font-bold">
-          <ProductCarousel
-            data={products[0]}
-            title="Estruturas"
-            linkSeeAll={hrefCategory("estruturas")}
-          />
-        </div>
-        <div className="text-xl font-bold">
-          <ProductCarousel
-            data={products[2]}
-            title="Inversores"
-            linkSeeAll={hrefCategory("inversores")}
-          />
-        </div>
+        <ProductsCarouselSection />
       </div>
     </main>
   );
