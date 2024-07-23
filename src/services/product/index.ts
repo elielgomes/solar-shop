@@ -2,7 +2,7 @@ import { api } from "@/lib/axios/api";
 import { ProductList, Product } from "@/interfaces";
 
 export const product = {
-  getAll: async (queryParams?: string) => {
+  getAll: async (queryParams = "") => {
     const response = await api.get<ProductList>(`/api/products${queryParams}`);
     return response.data;
   },
