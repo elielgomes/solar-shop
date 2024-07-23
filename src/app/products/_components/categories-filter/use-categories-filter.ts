@@ -1,10 +1,10 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
+import { category } from "@/services/category";
+import { queryKeys } from "@/constants/query-keys";
 import { useSuspenseQuery } from "@tanstack/react-query";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-
-import { category } from "@/services/category";
 
 export const useCategoriesFilter = () => {
   const searchParams = useSearchParams();
@@ -22,7 +22,7 @@ export const useCategoriesFilter = () => {
   };
 
   const { data: categoryList, isLoading } = useSuspenseQuery({
-    queryKey: ["categories"],
+    queryKey: queryKeys.categories,
     queryFn: category.getAll,
     refetchOnWindowFocus: false,
   });

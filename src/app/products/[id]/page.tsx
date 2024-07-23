@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { NextPage } from "next";
 import { useState } from "react";
-import { useQuery, useSuspenseQuery } from "@tanstack/react-query";
-import { ShoppingCart, Loader } from "lucide-react";
+import { useSuspenseQuery } from "@tanstack/react-query";
+import { ShoppingCart } from "lucide-react";
 
 import {
   Breadcrumb,
@@ -16,6 +16,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import { queryKeys } from "@/constants/query-keys";
 import { useCartStore } from "@/stores/cart-store";
 import { routesMap } from "@/constants/routes-map";
 import { formatCurrency } from "@/helpers/format-currency";
@@ -30,7 +31,7 @@ const ProductDetailPage: NextPage<ProductDetailPageProps> = ({ params }) => {
   const [quantityProduct, setQuantityProduct] = useState(1);
 
   const { data: product } = useSuspenseQuery({
-    queryKey: ["product", params.id],
+    queryKey: queryKeys.productById(params.id),
     queryFn: () => productService.getOne(params.id),
     refetchOnWindowFocus: false,
   });
