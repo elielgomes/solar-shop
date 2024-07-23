@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { api } from "@/lib/axios/api";
 import { Category, Product } from "@/interfaces";
-import { enrichProductWithCategory } from "@/app/api/products/route";
+import { enrichProductWithCategory } from "@/helpers/enrich-product";
 
 export const GET = async (
   _request: Request,

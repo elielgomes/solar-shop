@@ -1,50 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import type {
-  Category,
-  Product,
-  ProductWithCategoryDetails,
-} from "@/interfaces";
+import type { Category, Product } from "@/interfaces";
 import { api } from "@/lib/axios/api";
+import { sortProducts } from "@/helpers/sort-products";
 import { normalizeString } from "@/helpers/normalize-string";
-
-/**
- * @function enrichProductWithCategory
- * @description Enriches a product with its category details
- * @param {Product} product - The product to be enriched
- * @param {Category[]} categories - The list of categories
- * @returns {Product} - The product with category details
- */
-export const enrichProductWithCategory = (
-  product: Product,
-  categories: Category[]
-): ProductWithCategoryDetails => {
-  const productCategory = categories.find(
-    (category) => category.id === product.categoryId
-  ) as Category;
-  return { ...product, category: { ...productCategory } };
-};
-
-/**
- * @function sortProducts
- * @description Sorts a list of products based on a sort parameter
- * @param {Product[]} products - The list of products to be sorted
- * @param {string} sort - The sort parameter
- * @returns {Product[]} - The sorted list of products
- */
-const sortProducts = (products: Product[], sort: string): Product[] => {
-  switch (sort) {
-    case "asc-price":
-      return products.sort((a, b) => b.price - a.price);
-    case "desc-price":
-      return products.sort((a, b) => a.price - b.price);
-    case "asc":
-      return products.sort((a, b) => a.name.localeCompare(b.name));
-    case "desc":
-      return products.sort((a, b) => b.name.localeCompare(a.name));
-    default:
-      return products;
-  }
-};
+import { enrichProductWithCategory } from "@/helpers/enrich-product";
 
 export const GET = async (req: NextRequest) => {
   const searchParams = req.nextUrl.searchParams;
