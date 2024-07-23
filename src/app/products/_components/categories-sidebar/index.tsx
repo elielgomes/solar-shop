@@ -3,6 +3,7 @@
 import React, { Suspense } from "react";
 
 import { CategoriesFilter } from "@/app/products/_components/categories-filter";
+import { CategoriesFilterSkeleton } from "@/app/products/_components/categories-filter/skeleton";
 
 export const CategoriesSidebar: React.FC = () => {
   return (
@@ -10,7 +11,7 @@ export const CategoriesSidebar: React.FC = () => {
       <h3 className="block text-sm font-medium text-gray-900 mb-4">
         Categorias
       </h3>
-      <Suspense>
+      <Suspense fallback={<CategoriesFilterSkeleton />}>
         <CategoriesFilter />
       </Suspense>
     </aside>
