@@ -4,9 +4,9 @@ const hrefCategory = (slug: string) => `${routesMap.products}?category=${slug}`;
 
 export const categories = [
   {
-    title: "Paineis",
-    slug: "paineis",
-    href: hrefCategory("paineis"),
+    title: "Inversores",
+    slug: "inversores",
+    href: hrefCategory("inversores"),
   },
   {
     title: "Módulos",
@@ -14,13 +14,13 @@ export const categories = [
     href: hrefCategory("modulos"),
   },
   {
-    title: "Inversores",
-    slug: "inversores",
-    href: hrefCategory("inversores"),
-  },
-  {
     title: "Estruturas",
     slug: "estruturas",
     href: hrefCategory("estruturas"),
+  },
+  {
+    title: "Elétricos",
+    slug: "eletricos",
+    href: hrefCategory("eletricos"),
   },
 ] as const;
