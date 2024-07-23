@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 
 import { CategoriesFilter } from "@/app/products/_components/categories-filter";
 
@@ -10,7 +10,9 @@ export const CategoriesSidebar: React.FC = () => {
       <h3 className="block text-sm font-medium text-gray-900 mb-4">
         Categorias
       </h3>
-      <CategoriesFilter />
+      <Suspense>
+        <CategoriesFilter />
+      </Suspense>
     </aside>
   );
 };

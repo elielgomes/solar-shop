@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import { Suspense } from "react";
 import { Search } from "lucide-react";
 
 import {
@@ -54,14 +55,20 @@ const ProductsPage: NextPage<ProductsPageProps> = async ({ searchParams }) => {
             <h1 className="text-xl sm:text-2xl font-bold">Produtos</h1>
             <div className="hidden md:flex items-center gap-4">
               {hasSearchParams() && <CleanFiltersButton />}
-              <ProductSearchInput withButton={false} />
+              <Suspense>
+                <ProductSearchInput withButton={false} />
+              </Suspense>
               <div>
-                <SelectSortProducts />
+                <Suspense>
+									<SelectSortProducts />
+								</Suspense>
               </div>
             </div>
             <div className="md:hidden flex items-center gap-4">
               {hasSearchParams() && <CleanFiltersButton />}
-              <FiltersSheet />
+              <Suspense>
+								<FiltersSheet />
+							</Suspense>
             </div>
           </div>
 

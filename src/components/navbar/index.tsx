@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { Suspense } from "react";
 import Link from "next/link";
 import { Menu } from "lucide-react";
 
@@ -35,7 +35,7 @@ export const Navbar: React.FC = () => {
                 className="size-8 text-orange-400"
                 stroke="currentColor"
                 fill="currentColor"
-                stroke-width="0"
+                strokeWidth="0"
                 viewBox="0 0 24 24"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -48,7 +48,9 @@ export const Navbar: React.FC = () => {
 
           <div className="flex gap-4 text-foreground items-center">
             <div className="hidden md:block">
-              <ProductSearchInput withButton={false} />
+              <Suspense>
+                <ProductSearchInput withButton={false} />
+              </Suspense>
             </div>
             <UserAccountPopover />
             <CartSheet />

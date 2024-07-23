@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import { ProductList } from "@/interfaces";
 import { ProductCard } from "@/components/product-card";
@@ -23,10 +23,12 @@ export const ProductGrid: React.FC<ProductGridProps> = ({ productList }) => {
             <ProductCard key={product.id} product={product} />
           ))}
           <div className="col-span-full">
-            <ProductListPagination
-              totalPages={productList.totalPages}
-              currentPage={productList.currentPage}
-            />
+            <Suspense>
+							<ProductListPagination
+								totalPages={productList.totalPages}
+								currentPage={productList.currentPage}
+							/>
+						</Suspense>
           </div>
         </>
       )}

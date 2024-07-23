@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { Search, ArrowRight } from "lucide-react";
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 
 import {
   Sheet,
@@ -39,7 +39,9 @@ export const SearchSheet: React.FC = () => {
           </SheetDescription>
         </SheetHeader>
         <div className="mt-8">
-          <ProductSearchInput />
+          <Suspense>
+            <ProductSearchInput />
+          </Suspense>
         </div>
         <SheetFooter className="bottom-0 absolute right-0 left-0 sm:justify-start border-t border-border">
           <SheetClose

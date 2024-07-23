@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import Link from "next/link";
 import { AlignLeft } from "lucide-react";
 
@@ -41,7 +41,9 @@ export const MenuSheet: React.FC = () => {
           </TabsList>
           <TabsContent value="menu">
             <div className="mt-4">
-              <ProductSearchInput />
+              <Suspense>
+								<ProductSearchInput />
+							</Suspense>
             </div>
             <div className="grid gap-2 py-4">
               {navLinks.map((link) => (

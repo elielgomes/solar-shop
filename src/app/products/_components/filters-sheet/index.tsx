@@ -1,8 +1,10 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import { Filter, FilterX } from "lucide-react";
 import { useSearchParams } from "next/navigation";
+import { routesMap } from "@/constants/routes-map";
+import React, { Suspense, useEffect, useState } from "react";
 
 import {
   Sheet,
@@ -17,8 +19,6 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { ProductSearchInput } from "@/components/product-search-input";
 import { CategoriesFilter } from "@/app/products/_components/categories-filter";
 import { SelectSortProducts } from "@/app/products/_components/select-sort-products";
-import Link from "next/link";
-import { routesMap } from "@/constants/routes-map";
 
 export const FiltersSheet: React.FC = () => {
   const searchParams = useSearchParams();
@@ -49,7 +49,9 @@ export const FiltersSheet: React.FC = () => {
             <SheetDescription>Otimize sua busca por produtos.</SheetDescription>
           </SheetHeader>
           <div className="space-y-8 mt-8">
-            <ProductSearchInput />
+            <Suspense>
+              <ProductSearchInput />
+            </Suspense>
             {hasFilters && (
               <div>
                 <Link
@@ -63,11 +65,15 @@ export const FiltersSheet: React.FC = () => {
             )}
             <div>
               <p className="font-semibold text-sm mb-4">Ordenar</p>
-              <SelectSortProducts />
+              <Suspense>
+								<SelectSortProducts />
+							</Suspense>
             </div>
             <div>
               <p className="font-semibold text-sm mb-4">Categorias</p>
-              <CategoriesFilter />
+              <Suspense>
+                <CategoriesFilter />
+              </Suspense>
             </div>
           </div>
         </ScrollArea>
