@@ -25,13 +25,13 @@ export const CartProductCard: React.FC<CartProductCardProps> = ({ data }) => {
       >
         <X size={12} />
       </Button>
-      <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
+      <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200 bg-blue-50">
         <Image
           height={250}
           width={250}
           src={data.image || "/assets/products/placeholder.webp"}
-          alt="Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch."
-          className="h-full w-full object-cover object-center"
+          alt={data.name}
+          className="h-full w-full object-contain object-center mix-blend-multiply"
         />
       </div>
 
