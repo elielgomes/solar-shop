@@ -13,8 +13,4 @@ export const navLinks = [
     title: "Sobre",
     href: routesMap.about,
   },
-  {
-    title: "Contato",
-    href: routesMap.contact,
-  },
 ] as const;
