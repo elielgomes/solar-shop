@@ -71,6 +71,7 @@ Você pode acessar o projeto clicando [aqui](https://solar-shop-weld.vercel.app/
 ![Tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp;
 ![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)&nbsp;
 ![Tanstack Query](https://img.shields.io/badge/-Tanstack%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
+![Zustand](https://img.shields.io/badge/zustand-20232A.svg?style=for-the-badge&logo=zustand&logoColor=white)
 ![Shadcn](https://img.shields.io/badge/shadcn%2Fui-000000?style=for-the-badge&logo=shadcnui&logoColor=white)
 ![Axios](https://img.shields.io/badge/axios-671ddf?&style=for-the-badge&logo=axios&logoColor=white)
 ![Typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)&nbsp;
@@ -82,6 +83,7 @@ Você pode acessar o projeto clicando [aqui](https://solar-shop-weld.vercel.app/
 - **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS para estilização eficiente.
 - **[Next.js](https://nextjs.org/)**: Framework React para renderização do lado do servidor.
 - **[Tanstack Query](https://tanstack.com/query)**: Biblioteca para gerenciamento de estado e busca de dados no cliente.
+- **[Zustand](https://zustand-demo.pmnd.rs/)**: Biblioteca para gerenciamento de estado para aplicações React.
 - **[Shadcn UI](https://shadcn.dev/)**: Componentes UI para React.
 - **[Axios](https://axios-http.com/)**: Cliente HTTP para realizar requisições.
 - **[TypeScript](https://www.typescriptlang.org/)**: Superset do JavaScript que adiciona tipagem estática opcional.
