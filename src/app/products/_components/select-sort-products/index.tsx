@@ -39,7 +39,7 @@ export const SelectSortProducts: React.FC = () => {
 
   return (
     <Select onValueChange={handleSelect} value={selectValue}>
-      <SelectTrigger className="bg-card h-full shadow-md shadow-gray-600/5 border border-border rounded outline-none focus:ring-offset-0 focus:ring-0 transition-colors gap-2">
+      <SelectTrigger className="bg-card h-10 border border-border rounded outline-none focus:ring-offset-0 focus:ring-0 transition-colors gap-2">
         <span>Ordenar por</span>
       </SelectTrigger>
       <SelectContent>
