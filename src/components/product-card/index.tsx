@@ -14,11 +14,11 @@ interface ProductCardProps {
 export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   return (
     <Link href={`${routesMap.products}/${product.id}`}>
-      <div className="h-96 bg-card rounded overflow-hidden shadow-md shadow-gray-600/5 group">
-        <div className="w-full relative h-2/3 bg-card">
+      <div className="h-96 rounded overflow-hidden border border-border group">
+        <div className="w-full relative h-2/3 px-4 pt-4 bg-blue-50">
           <Image
             src={product.image}
-            className="object-contain object-center h-full w-full group-hover:scale-105 transition-transform duration-300"
+            className="object-contain object-center h-full w-full group-hover:scale-105 transition-transform duration-300 mix-blend-multiply"
             height={250}
             width={350}
             alt="Product Image"
