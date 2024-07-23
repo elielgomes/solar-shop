@@ -9,7 +9,7 @@ import { Providers } from "@/contexts/providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Solar Store",
+  title: "Solar Shop",
   description: "O melhor e-commerce de itens de energia solar do Brasil",
 };
 
