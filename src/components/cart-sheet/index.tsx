@@ -69,9 +69,11 @@ export const CartSheet: React.FC = () => {
             <p>{total}</p>
           </div>
           <div className="mt-6">
-            <Button asChild className="w-full">
-              <Link href={routesMap.cart}>Finalizar Compra</Link>
-            </Button>
+            <SheetClose asChild>
+              <Button asChild className="w-full">
+                <Link href={routesMap.cart}>Finalizar Compra</Link>
+              </Button>
+            </SheetClose>
           </div>
           <div className="mt-6 flex justify-center text-center text-sm text-gray-500">
             <p>
