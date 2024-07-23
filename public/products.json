@@ -212,7 +212,7 @@
     "name": "Carregador Veicular Fronius Wattpilot Home 11 J 2,0",
     "price": 7391.34,
     "image": "/assets/products/eletricos/carregador-wattpilot.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "8618af58-f98f-487e-8039-4038ee840e51"
   },
@@ -220,7 +220,7 @@
     "name": "Cabo de carregador veicular Fronius Tipo 2 2,5m",
     "price": 2602.88,
     "image": "/assets/products/eletricos/cabo-carregador.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "a432327b-5bff-4933-bc71-2b295af42c7e"
   },
@@ -228,7 +228,7 @@
     "name": "Cabo de carregador veicular Fronius Tipo 2 5m",
     "price": 2318.82,
     "image": "/assets/products/eletricos/cabo-carregador.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "231a6b7f-3811-431d-84ee-5e59fe539d52"
   },
@@ -236,7 +236,7 @@
     "name": "Cabo de carregador veicular Fronius  Tipo 2 7,5m",
     "price": 3389.83,
     "image": "/assets/products/eletricos/cabo-carregador.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "c9f47326-7355-43f5-964b-60686ecefc7d"
   },
@@ -244,7 +244,7 @@
     "name": "Suporte cabo de carregador veicular Fronius (Type 2 wall bracket)",
     "price": 594.56,
     "image": "/assets/products/eletricos/suporte-carregador.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "a4e2b0f0-7d06-48a3-b104-e536d4071102"
   },
@@ -252,7 +252,7 @@
     "name": "Tagns RFID",
     "price": 259.92,
     "image": "/assets/products/eletricos/Tagns-RFID.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "dadb24c6-a07e-472c-8f67-d2d6d9324fd2"
   },
@@ -260,7 +260,7 @@
     "name": "Smart Meter Fronius 65A",
     "price": 1951.59,
     "image": "/assets/products/inversores/Fronius_Smart_Meter_63A_3.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "b7cd098f-c78f-435f-b7a1-0dc1fc361e2f"
   },
@@ -268,7 +268,7 @@
     "name": "Smart Meter Fronius 5kA",
     "price": 1951.59,
     "image": "/assets/products/inversores/Fronius_Smart_Meter_63A_3.webp",
-    "categoryId": "ae9342b0-8b45-4e54-8b7c-00b54cac5779",
+    "categoryId": "53e866fa-216d-4729-a677-f3a18095116e",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, commodo vel consectetur quis, elementum id justo.",
     "id": "5395f651-01ad-488f-bcd7-bb00479192ec"
   },
