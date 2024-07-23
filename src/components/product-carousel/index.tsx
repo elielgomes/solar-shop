@@ -50,8 +50,8 @@ export const ProductCarousel: React.FC<ProductCarouselProps> = ({
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="hidden sm:block" />
-        <CarouselNext className="hidden sm:block" />
+        <CarouselPrevious className="hidden sm:flex" />
+        <CarouselNext className="hidden sm:flex" />
       </Carousel>
     </div>
   );
