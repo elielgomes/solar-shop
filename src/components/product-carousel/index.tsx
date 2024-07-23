@@ -28,7 +28,7 @@ export const ProductCarousel: React.FC<ProductCarouselProps> = ({
   return (
     <div className="w-full space-y-4">
       <div className="flex justify-between items-center">
-        <h3 className="font-bold text-xl">{title}</h3>
+        <h3 className="font-bold text-xl capitalize">{title}</h3>
         <Link
           href={linkSeeAll}
           className="text-sm flex items-center gap-2 text-primary"
