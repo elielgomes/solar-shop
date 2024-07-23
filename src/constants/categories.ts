@@ -1,6 +1,6 @@
 import { routesMap } from "@/constants/routes-map";
 
-const hrefCategory = (slug: string) => `${routesMap.products}?category=${slug}`;
+export const hrefCategory = (slug: string) => `${routesMap.products}?category=${slug}`;
 
 export const categories = [
   {
